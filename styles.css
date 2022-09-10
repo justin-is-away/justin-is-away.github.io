@@ -1,7 +1,116 @@
 .creativecommons {
     text-decoration: none;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: auto;
 }
 
 a {
     text-decoration: none;
+    color: green;
 }
+
+#logo{
+    width: 25%;
+}
+
+.headline{
+    
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#feature{
+    padding-top: 10px;
+}
+
+#feature li {
+    padding-top: 8px;
+}
+
+#body-paragraph p{
+    margin-top: 20px;
+}
+
+#course-info{
+    font-size: 10px;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+}
+
+.nav-links{
+    padding: 40px 10px 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 5px 30px 20px 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.nav-links li a:hover{
+    text-decoration: underline;
+}
+
+
+#bojack{
+    display: flex;
+    align-items: center;
+}
+
+#bojack-explainer{
+    line-height: 20px;
+}
+
+#maybe-bojack li{
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#profile-pic{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contact table{
+    border-collapse: separate;
+    border-spacing: 50px 0;
+  }
+  
+#contact td {
+    padding: 10px 0;
+  }
+
+#typing{
+    line-height: 20px;
+}
+
+#typing-list li{
+    line-height: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#body-paragraph{
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: gray;
+    }
+  }
